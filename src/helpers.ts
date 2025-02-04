@@ -173,6 +173,7 @@ export const generateRelationImportsImport = (
   sourceFile.addImportDeclaration({
     moduleSpecifier: './',
     namedImports: relationImports,
+    isTypeOnly: true,
   });
 };
 export const generateHelpersImports = (
